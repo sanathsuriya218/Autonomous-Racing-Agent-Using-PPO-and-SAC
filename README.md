@@ -8,8 +8,6 @@ where N is the total number of tiles in track. For example, if you have finished
 your reward is 1000 - 0.1\*732 = 926.8 points. The indicators shown at the bottom of the window. 
 CarRacing-v0 defines "solving" as getting average reward of 900 over 100 consecutive trials.
 
-![](images/plot_Reward_200-1000_0.8.png)  
-
 ### Requirement
 
 * [pytorch 0.41](https://pytorch.org/)
@@ -75,7 +73,6 @@ Parameters **c1**, **c2** and **epoch** are essential hyperparameters in the PPO
 We train the agent to understand that it can use information from its surroundings to inform the next best action.
 The score **901.81** was achieved in the episode **2760** after training **6 hours 53 minutes**.   
 
-![](images/plot_2760episodes.png)
 
 #### Last Episodes
 .....     
@@ -158,14 +155,6 @@ Episode 3	Average Score: 943.30,	Score: 913.04 	Time: 00:00:11
 Episode 4	Average Score: 943.02,	Score: 942.18 	Time: 00:00:11   
 Episode 5	Average Score: 938.26,	Score: 919.25 	Time: 00:00:11     
 
-### Video
-See video on [youtube](https://www.youtube.com/watch?v=55buBR2pPdc).
-
-### Other PPO projects  
-  * [Pong](../Pong-Policy-Gradient-PPO), 8 parallel agents
-  * [Crawler](../Project-2_Continuous-Control-Crawler-PPO), 12 parallel agents
-  * [BipedalWalker](../BipedalWalker-PPO-VectorizedEnv),   16 parallel agents
-  
 ### Credit
 
 Most of the code is based on the Udacity code for PPO, and the github code of Xiaoteng Ma (https://github.com/xtma/pytorch_car_caring). 
