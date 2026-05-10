@@ -1,4 +1,4 @@
-# Project - CarRacing with PPO, Learning from Raw Pixels 
+# CarRacing with PPO, Learning from Raw Pixels 
 
 ### Introduction
 
